@@ -73,7 +73,7 @@ const weddingData = {
 
   families: {
     groups: [
-      { members: ["M Selvaraj", "S Meena"] },
+      { members: ["M. Selvaraj", "S. Meena"] },
       { members: ["D. Sankar", "S. Viji"] }
     ],
     display: "M Selvaraj & S Meena · D. Sankar, S. Viji",
