@@ -95,8 +95,6 @@
         <div class="reveal">${orn("#d9bf7c")}</div>
         <p class="credit">${esc(w.footerMessage)}</p></div>`;
 
-    const links = [["home", "Home"], ["invitation", "Invitation"], ["couple", "Couple"], ["ceremony", "Ceremony"], ["reception", "Reception"], ["families", "Families"]];
-    $("#nav").innerHTML = links.map(([id, t]) => `<a href="#${id}">${t}</a>`).join("");
     $("#band").innerHTML = Array(2).fill(Array(14).fill(mini()).join("")).join("");
 
     // never leave a broken image: fall back to the maroon backdrop
@@ -118,18 +116,11 @@
     const io = new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target); } }), { threshold: 0.15 });
     $$(".reveal, .frame").forEach((n) => io.observe(n));
 
-    const links = $$(".nav a");
-    const so = new IntersectionObserver((es) => es.forEach((e) => {
-      if (e.isIntersecting) links.forEach((a) => a.classList.toggle("on", a.getAttribute("href") === "#" + e.target.id));
-    }), { rootMargin: "-45% 0px -50% 0px" });
-    links.forEach((a) => so.observe($(a.getAttribute("href"))));
-
-    const nav = $("#nav"), tl = $("#tl"), track = $("#band");
+    const tl = $("#tl"), track = $("#band");
     const pars = $$(".par"), fls = $$(".fl");
     let busy = false;
     const update = () => {
       busy = false;
-      nav.classList.toggle("solid", scrollY > innerHeight * 0.6);
       const r = tl.getBoundingClientRect();
       tl.style.setProperty("--p", Math.min(1, Math.max(0, (innerHeight * 0.85 - r.top) / (innerHeight * 0.6 + r.height))).toFixed(3));
       if (reduce) return;

@@ -6,13 +6,13 @@ const weddingData = {
 
   couple: {
     groom: {
-      name: "S. Surya Prakash",
+      name: "S. Suriya Prakash",
       qualifications: "B.Sc., MBA",
       profession: "Proprietor",
       company: "SHIV Associates"
     },
     bride: {
-      name: "S. Shamila",
+      name: "S. Sharmila",
       qualifications: "B.E., ECE",
       profession: "Software Consultant",
       company: "CTCS"
@@ -127,7 +127,7 @@ const weddingData = {
   },
 
   website: {
-    title: "Surya Prakash & Shamila",
+    title: "Suriya Prakash & Sharmila",
     subtitle: "Together Forever",
     tamilSubtitle: "இணையும் இரு இதயங்கள்",
     footerMessage: "With Love and Best Wishes from Yogesh "
