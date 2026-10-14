@@ -15,7 +15,7 @@ const weddingData = {
       name: "S. Sharmila",
       qualifications: "B.E., ECE",
       profession: "Software Consultant",
-      company: "CTCS"
+      company: "TCS"
     }
   },
 
@@ -59,24 +59,24 @@ const weddingData = {
     venue: {
       name: "SS Mahal",
       address:
-        "No. 10/208, Masthan Gori Street, Ambattur, Chennai – 600053, Tamil Nadu, India",
+        "No. 10/208, Masthan Gori Street, Adambakkam, Chennai – 600053, Tamil Nadu, India",
       street: "No. 10/208, Masthan Gori Street",
-      area: "Ambattur",
+      area: "Adambakkam",
       city: "Chennai",
       state: "Tamil Nadu",
       pincode: "600053",
-      landmarks: "Near Ambattur Statue and Ambattur Railway Station",
+      landmarks: "Near Ambedkar Statue and St. Thomas Mount Railway Station",
       mapUrl:
-        "https://www.google.com/maps/search/?api=1&query=SS+Mahal+Masthan+Gori+Street+Ambattur+Chennai"
+        "https://www.google.com/maps/search/?api=1&query=SS+Mahal+Masthan+Gori+Street+Adambakkam+Chennai"
     }
   },
 
   families: {
     groups: [
       { members: ["M Selvaraj", "S Meena"] },
-      { members: ["D. Sankar", "S. Vijaya Lakshmi"] }
+      { members: ["D. Sankar", "S. Viji"] }
     ],
-    display: "M Selvaraj & S Meena · D. Sankar, S. Vijaya Lakshmi",
+    display: "M Selvaraj & S Meena · D. Sankar, S. Viji",
     tamilDisplay: "செல்வராஜ் குடும்பத்தினர் மற்றும் சங்கர் குடும்பத்தினர்"
   },
 
@@ -130,7 +130,7 @@ const weddingData = {
     title: "Suriya Prakash & Sharmila",
     subtitle: "Together Forever",
     tamilSubtitle: "இணையும் இரு இதயங்கள்",
-    footerMessage: "With Love and Best Wishes from Yogesh "
+    footerMessage: "With Love and Best Wishes from\nYogesh S\nBSc (CS), Nagarro"
   }
 };
 

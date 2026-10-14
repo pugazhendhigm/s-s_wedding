@@ -103,7 +103,7 @@ hr{border:0;height:1px;width:60px;margin:1.3rem auto;background:var(--gold)}
 .closing h2{color:var(--gold-l);margin-bottom:.5rem}
 .closing h2 .ta-title{color:var(--gold-l)}
 .closing .btn{background:var(--gold-l);border-color:var(--gold-l);color:var(--maroon-d)}.closing .btn:hover{background:transparent;color:var(--gold-l)}
-.credit{margin-top:2.5rem;font-size:1.25rem;color:var(--gold-l)}
+.credit{margin-top:2.5rem;font-size:1.25rem;color:var(--gold-l);white-space:pre-line}
 
 /* timeline */
 .tl-scroll{overflow:visible;padding:.25rem 0}
