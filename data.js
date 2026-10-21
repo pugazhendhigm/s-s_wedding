@@ -85,7 +85,7 @@ const weddingData = {
   images: {
     credit: "Photographs from Pexels, free to use. Images are illustrative and do not show the couple or the actual venues.",
     hero: {
-      src: "homeBG2.jpeg",
+      src: "homeBG2.png",
       raw: true,
       alt: "Wedding home page background",
       position: "50% 25%"
@@ -130,7 +130,7 @@ const weddingData = {
     title: "Suriya Prakash & Sharmila",
     subtitle: "Together Forever",
     tamilSubtitle: "இணையும் இரு இதயங்கள்",
-    footerMessage: "With Love and Best Wishes from\nYogesh S\nBSc (CS), Nagarro"
+    footerMessage: "With Love and Best Wishes from\nYogesh S\nBSc. CS, Nagarro"
   }
 };
 
